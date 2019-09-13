@@ -1,15 +1,12 @@
 import React from "react";
+import "./../App.css"
 
-let Info = (props) =>{
+let Weather = (props) =>{
     return(
-        <div>
-            <h2>Info</h2>
-            <p>temperature: {props.data.temp}</p>
-            <p>pressure: {props.data.pressure}</p>
-            <p>humidity: {props.data.humidity}</p>
-            <p>wind speed: {props.data.windSpeed}</p>
-        </div>
+       <div className="myWeatherApp">
+           My weather app
+       </div>
     )
 }
 
-export default Info;
+export default Weather;
